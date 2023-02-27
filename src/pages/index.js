@@ -181,7 +181,7 @@ const IndexPage = () => {
           <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
             <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl" id="services">Services</h1>
             <p className="mt-6 max-w-3xl text-xl text-gray-300">
-              Drawing from decades of experience across diverse indutries, Volla provides best&#8209;in&#8209;class engineering and advisory services for technical solutions delivery.
+              Drawing from decades of experience across diverse industries, Volla provides best&#8209;in&#8209;class engineering and advisory services for technical solutions delivery.
             </p>
           </div>
         </div>
