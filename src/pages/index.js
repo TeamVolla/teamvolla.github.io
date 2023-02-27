@@ -8,7 +8,7 @@ import companyLogo from "../images/logo-volla.png"
 import heroVisual from "../images/hero-visual.jpg"
 
 const navigation = [
-  { name: 'About', href: '#about-us' },
+  { name: 'About Us', href: '#about-us' },
   { name: 'Services', href: '#services' },
 ]
 
@@ -141,13 +141,6 @@ const IndexPage = () => {
                   Volla's world-class engineering team delivers the technology backbone
                   of <span className="text-red-1000 font-bold">award winning</span> products and services.
                 </p>
-                {/*<div className="mt-10 flex items-center gap-x-6">*/}
-                {/*  <a*/}
-                {/*    href="#"*/}
-                {/*    className="rounded-md bg-red-1000 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-1000 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-1000"*/}
-                {/*  >Get started</a*/}
-                {/*  >*/}
-                {/*</div>*/}
               </div>
             </div>
           </div>
@@ -168,7 +161,7 @@ const IndexPage = () => {
         <div className="mx-auto max-w-2xl text-center text-white">
           <h2 className="text-4xl font-bold tracking-tight sm:text-6xl" id="about-us">About Us</h2>
           <p className="mt-6 text-lg leading-8">
-            Volla is a leading software engineering firm with expertise delivering advanced technology solutions for Web2 and Web3 projects.
+            Volla is a leading software engineering firm with expertise in delivering advanced technology solutions for Web2 and Web3 projects.
           </p>
         </div>
       </div>
@@ -186,11 +179,9 @@ const IndexPage = () => {
             <div className="absolute inset-0 bg-gray-600 mix-blend-multiply" aria-hidden="true"></div>
           </div>
           <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
-            <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl" id="services">Our Expertise</h1>
+            <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl" id="services">Services</h1>
             <p className="mt-6 max-w-3xl text-xl text-gray-300">
-              Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus
-              dui
-              laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.
+              Drawing from decades of experience across diverse indutries, Volla provides best&#8209;in&#8209;class engineering and advisory services for technical solutions delivery.
             </p>
           </div>
         </div>
@@ -212,12 +203,6 @@ const IndexPage = () => {
                     ))}
                   </ul>
                 </div>
-                {/* CTA segment. Disabled for now */}
-                {/*<div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">*/}
-                {/*  <a href="#" className="text-base font-medium text-red-1000 hover:text-red-1000"*/}
-                {/*  >Learn more<span aria-hidden="true"> &rarr;</span></a*/}
-                {/*  >*/}
-                {/*</div>*/}
               </div>
             ))}
           </div>
