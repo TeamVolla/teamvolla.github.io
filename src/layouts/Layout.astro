@@ -5,7 +5,7 @@ export interface Props {
 
 const { title } = Astro.props;
 
-import favicon from '../assets/images/favicon.ico'
+import favicon from 'favicon.ico'
 ---
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@ import favicon from '../assets/images/favicon.ico'
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="favicon" href={favicon.src} />
+		<link rel="icon" type="favicon" href="favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
