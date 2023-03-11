@@ -6,7 +6,7 @@ Based on `Astro Starter Kit: Basics`. Created with:
 npm create astro@latest -- --template basics
 ```
 
-## 📑 Requirements
+## 🧰 Requirements
 Tested with Node 18
 
 ## 🚀 Project Structure
@@ -31,7 +31,7 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Static assets in `src/assets/` are processed with the [assets pipeline}(https://docs.astro.build/en/guides/assets/). Assets
+Static assets in `src/assets/` are processed with the [assets pipeline](https://docs.astro.build/en/guides/assets/). Assets
 that do not require special processing should be placed in `public/` directory.
 
 The `public/CNAME` file should be kept if the site is to run as a GitHub page with custom domain.
@@ -51,9 +51,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Deployment
+## 📦 Deployment
 The site will continuously deploy from the `main` branch through GitHub Actions.
+
+## 📑 References
+* [Astro documentation](https://docs.astro.build)
+* [GitHub Pages](https://docs.github.com/en/pages)
+* [GitHub Actions](https://docs.github.com/en/actions)
